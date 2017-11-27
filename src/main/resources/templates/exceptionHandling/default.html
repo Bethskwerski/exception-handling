@@ -55,7 +55,7 @@
              placeholder="should be a URL (http://example.com), but...">
       <button>Submit</button>
       {{#urlResult}}
-         {{ urlResult }}
+         <a href="{{ urlResult }}">{{ urlResult }}</a>
       {{/urlResult}}
       {{#urlFailure}}
          {{ urlFailure }}
